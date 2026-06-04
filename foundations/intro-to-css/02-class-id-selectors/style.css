@@ -1,1 +1,10 @@
-/* Add CSS Styling */
+p {
+    background-color: #e9465c;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#nana {
+    color:  rgb(0, 0, 255);
+    font-size: 36px;
+}
+
