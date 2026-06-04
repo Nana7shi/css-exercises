@@ -12,3 +12,8 @@ p {
     font-size: 24px;
 }
 
+#shi {
+    background-color: hsl(147, 71%, 57%);
+    font-size: 24px;
+    font-weight: 700;
+}
