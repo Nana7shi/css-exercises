@@ -1,1 +1,14 @@
-/* Add CSS Styling */
+.nana,
+.shi {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.nana {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.shi {
+    background-color:rgb(235, 238, 37);
+}
