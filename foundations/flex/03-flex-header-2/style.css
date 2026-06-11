@@ -54,4 +54,5 @@ ul {
 .right {
   display: flex;
   justify-content: flex-end;
+  flex: 2 1 0;
 }
