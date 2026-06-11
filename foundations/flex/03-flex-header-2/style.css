@@ -14,7 +14,6 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 8px;
 }
 
@@ -52,14 +51,14 @@ ul {
   display: flex;
   gap: 20px;
   padding: 0;
-  margin: 15px;
+  margin: 0;
 }
 
+.left, 
 .right {
   display: flex;
-  justify-content: flex-end;
-  flex: 2 1 0;
-  gap: 10px;
+  align-items: center;
+  gap: 16px;
 }
 
-/* My original solution before refactoring to Odin's structure */
+/* Odin-style refactor using left/right flex containers */
