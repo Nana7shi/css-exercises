@@ -28,4 +28,5 @@ img {
 
 .leader {
   display: flex;
+  justify-content: space-evenly;
 }
