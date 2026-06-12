@@ -44,4 +44,5 @@ img {
   align-items: center;
   width: 200px;
   flex: auto;
+  text-align: center;
 }
