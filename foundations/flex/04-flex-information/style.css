@@ -42,4 +42,6 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 200px;
+  flex: 0;
 }
