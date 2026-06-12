@@ -39,9 +39,9 @@ img {
 .group3,
 .group4 {
   display: flex;
-  flex-direction: column;
+  flex-flow:column wrap;
   justify-content: center;
   align-items: center;
   width: 200px;
-  flex: 0;
+  flex: auto;
 }
