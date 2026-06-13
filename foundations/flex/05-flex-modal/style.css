@@ -72,16 +72,17 @@ button.cancel {
   color: royalblue;
 }
 
-.nana {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
 .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   font-weight: bold;
   font-size: 20px;
-  flex-grow: 2;
+  margin-bottom: 10px;
+}
+
+.text {
+  margin-bottom: 18px;
 }
 
 /* My answer before lining it up with the solution given. (note: check html file too) */
