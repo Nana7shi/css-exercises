@@ -7,8 +7,6 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
 }
 
 img {
@@ -35,15 +33,17 @@ input {
 
 .header,
 .footer {
-  width: 100%;
+  padding: 16px;
   display: flex;
   justify-content: space-between;
 }
 
 .content {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 20px;
 }
 
@@ -53,6 +53,10 @@ button {
 
 ul{
   list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
 }
 
 a {
@@ -60,12 +64,4 @@ a {
   color: #746d6d;
 }
 
-.left-links,
-.right-links {
-  display: flex;
-  gap: 10px;
-  padding: 20px;
-  margin: 0;
-}
-
-/*  My answer before lining it up with the solution. */
+/*  My answer after lining it up with the solution. */
