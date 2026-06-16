@@ -64,4 +64,13 @@ li {
 .deck {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 24px;
+  margin: 48px;
+}
+
+.card {
+  max-width: 300px;
+  flex: auto;
+  padding: 48px;
 }
