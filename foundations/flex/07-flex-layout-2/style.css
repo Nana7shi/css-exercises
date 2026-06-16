@@ -14,7 +14,7 @@ body {
   font-weight: 900;
   display: flex;
   align-items: center;
-  padding-left: 16px;
+  padding: 0 16px;
 }
 
 .footer {
@@ -30,7 +30,8 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
-  flex: 0 0 auto;
+  flex-shrink: 0;
+  padding: 16px;
 }
 
 .card {
@@ -42,7 +43,6 @@ body {
 .content {
   flex-grow: 1;
   display: flex;
-  justify-content: space-between;
 }
 
 a {
@@ -57,22 +57,20 @@ ul {
 }
 
 li {
-  padding: 16px;
+  margin-bottom: 16px;
   font-size: 24px;
 }
 
 .deck {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  gap: 24px;
-  margin: 48px;
-}
-
-.card {
-  max-width: 300px;
-  flex: auto;
+  gap: 32px;
   padding: 48px;
 }
 
-/* My answer before lining it up with the given solution. */
+.card {
+  width: 300px;
+  padding: 16px;
+}
+
+/* My answer after lining it up with the given solution. */
